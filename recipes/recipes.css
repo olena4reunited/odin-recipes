@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Monserrat", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #8E969D;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../images/upscaled-4x-openart-7d8689b0c970437c87259b47d43195e6_raw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -11dvh;
+    padding: 10px 10px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 30px;
+}
+
+.navbar-left-item {
+    margin-right: 30px;
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-left a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 5px;
+    transition: all ease 0.3s;
+}
+
+.navbar-left a:hover {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.6);
+    color: #fff;
+}
+
+#recipes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.recipe-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.recipe-box {
+    max-width: 400px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: all ease 0.3s;
+}
+
+.recipe-box:hover {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.recipe-box-img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+}
+
+.recipe-box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.recipe-box-text {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px 20px 10px;
+}
+
+.recipe-box-text strong {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 5px 0px 10px 0px;
+}
+
+.recipe-box-text strong a {
+    color: #0B1218;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+.recipe-box-text strong a:hover {
+    text-shadow: 0 0 15px rgba(77, 134, 37, 0.8), 0 0 30px rgba(77, 134, 37, 0.6);
+}
+
+.recipe-box-text p {
+    color: #0B1218;
+    font-size: 0.9rem;
+    font-weight: 400;
+    overflow: hidden;
+}
